@@ -2,8 +2,8 @@ catalog:
   abbreviation: REG
   counts:
     candidates: 0
-    canonical: 0
-    entities: 0
+    canonical: 8
+    entities: 8
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -16,12 +16,124 @@ catalog:
   description: 'An externally imposed obligation (law, industry standard with force, contractual mandate) the enterprise must comply with.
 
     '
-  entities: []
+  entities:
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:regulation-eu-gdpr
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:regulation-eu-gdpr/dea:regulation-eu-gdpr.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: Regulation
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:regulation-eu-trade-secrets-directive
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:regulation-eu-trade-secrets-directive/dea:regulation-eu-trade-secrets-directive.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: Regulation
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:regulation-pci-dss
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:regulation-pci-dss/dea:regulation-pci-dss.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: Regulation
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:regulation-uk-gdpr
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:regulation-uk-gdpr/dea:regulation-uk-gdpr.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: Regulation
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:regulation-us-ccpa-cpra
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:regulation-us-ccpa-cpra/dea:regulation-us-ccpa-cpra.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: Regulation
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:regulation-us-dtsa
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:regulation-us-dtsa/dea:regulation-us-dtsa.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: Regulation
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:regulation-us-hipaa
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:regulation-us-hipaa/dea:regulation-us-hipaa.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: Regulation
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:regulation-us-securities-insider-trading
+    last_modified: '2026-10-30'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:regulation-us-securities-insider-trading/dea:regulation-us-securities-insider-trading.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: Regulation
+    version: 1.0.0
   id: dea:catalog-regulations
   metamodel_version: 1.0.0
   name: Regulation
   owner: TechNeHub Labs
   repository: https://github.com/technehub-labs/dea-catalog-regulations.git
-  research_registers: []
+  research_registers:
+  - entity_id: dea:regulation-eu-gdpr
+    files: []
+    path: entities/v1-alpha/dea:regulation-eu-gdpr/research/
+  - entity_id: dea:regulation-eu-trade-secrets-directive
+    files: []
+    path: entities/v1-alpha/dea:regulation-eu-trade-secrets-directive/research/
+  - entity_id: dea:regulation-pci-dss
+    files: []
+    path: entities/v1-alpha/dea:regulation-pci-dss/research/
+  - entity_id: dea:regulation-uk-gdpr
+    files: []
+    path: entities/v1-alpha/dea:regulation-uk-gdpr/research/
+  - entity_id: dea:regulation-us-ccpa-cpra
+    files: []
+    path: entities/v1-alpha/dea:regulation-us-ccpa-cpra/research/
+  - entity_id: dea:regulation-us-dtsa
+    files: []
+    path: entities/v1-alpha/dea:regulation-us-dtsa/research/
+  - entity_id: dea:regulation-us-hipaa
+    files: []
+    path: entities/v1-alpha/dea:regulation-us-hipaa/research/
+  - entity_id: dea:regulation-us-securities-insider-trading
+    files: []
+    path: entities/v1-alpha/dea:regulation-us-securities-insider-trading/research/
   status: active
   version: 0.1.0

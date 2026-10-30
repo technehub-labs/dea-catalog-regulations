@@ -11,3 +11,5 @@ catalogue-instance layer; vendored relationship-instance contract; fixtures;
 gates 1-6 wired into `validate-catalogue.yml` plus allocation and authorship
 workflows; FOUNDATIONS (D-1..D-6) and record documentation standard. No
 records admitted (population gated on CR-REG-CAT-02).
+- `CR-REG-CAT-02` — initial population: 8 canonical Regulation records grounding every value of the
+  information-classes jurisdiction-regime vocabulary. CATALOG.yaml regenerated (8 entities).
